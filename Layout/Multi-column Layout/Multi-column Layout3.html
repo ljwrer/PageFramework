@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			.parent{
+				display: table;
+				width: 100%;
+				table-layout: fixed;
+			}
+			.left
+			{
+				background-color: palevioletred;
+				width: 100px;
+				display: table-cell;
+				padding-right: 20px;
+			}
+
+			.right{
+				background-color: skyblue;
+				display: table-cell;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="parent">
+			<div class="left">
+				<p>left</p>
+			</div>
+			<div class="right">
+				<p>right</p>
+				<p>right</p>
+			</div>
+		</div>
+	</body>
+
+</html>
