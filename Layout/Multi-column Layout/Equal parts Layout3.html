@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			.parent{
+				display: flex;
+				width: 100%;
+			}
+			.column{
+				background-color: cornflowerblue;
+				height: 100px;
+				flex: 1;
+			}
+			.column+.column{
+				margin-left: 20px;
+			}
+		</style>
+	</head>
+	<body>
+			<div class="parent">
+				<div class="column">1</div>
+				<div class="column">2</div>
+				<div class="column">3</div>
+				<div class="column">4</div>
+			</div>
+	</body>
+</html>
