@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Horizontal Center</title>
+		<style>
+			.parent{
+				width: 500px;
+				height: 500px;
+				background-color: deepskyblue;
+				position: relative;
+			}
+			.child{
+				background-color: brown;
+				position: absolute;
+				left: 50%;
+				-webkit-transform: translateX(-50%);
+				-moz-transform: translateX(-50%);
+				-ms-transform: translateX(-50%);
+				-o-transform: translateX(-50%);
+				transform: translateX(-50%);				
+			}
+		</style>
+	</head>
+	<body>
+		<div class="parent">
+			<table class="child">
+				<tr>
+					<td>demo</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
