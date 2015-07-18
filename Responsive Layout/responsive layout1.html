@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+		<link rel="stylesheet" href="../css/reset.css" />
+		<style>
+			html,body{
+				height: 100%;
+			}
+			.a{
+				width: 100px;
+				margin-right: 20px;
+				float: left;
+				background-color: deepskyblue;
+				height: 300px;
+			}
+			.b{
+				overflow: hidden;
+				background-color: yellowgreen;
+				height: 400px;
+			}
+			@media screen and (max-width: 320px) {
+				.a{
+					float: none;
+					width: auto;
+					margin-right: 0px;
+					margin-bottom: 20px;
+				}
+			}				
+		</style>
+	</head>
+	<body>
+		<div class="a">
+			a
+		</div>
+		<div class="b">
+			b
+		</div>
+	</body>
+</html>

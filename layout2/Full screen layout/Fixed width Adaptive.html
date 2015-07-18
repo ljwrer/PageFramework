@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="../../css/reset.css" />
+		<style>
+			html,body,.container{
+				height: 100%;
+				background: yellowgreen;
+				overflow: hidden;
+			}
+			.header{
+				position: absolute;
+				top:0;
+				left: 0;
+				right: 0;
+				height: 100px;
+				background: darkblue;
+			}
+			.main{
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: 100px;
+				bottom: 100px;
+				background: deepskyblue;
+			}
+			.footer{
+				position: absolute;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				height: 100px;
+				background: darkblue;
+			}
+			.aside{
+				width: 100px;
+				background: darkorange;
+				position: absolute;
+				left: 0;
+				top: 100px;
+				bottom: 100px;
+			}
+			.section{
+				overflow: auto;
+				background: greenyellow;
+				position: absolute;
+				left: 100px;
+				top: 100px;
+				right: 0;
+				bottom: 100px;
+				overflow: auto;
+			}
+			.inner{
+				min-height: 1000px;
+			}			
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">header</div>
+			<div class="aside">aside</div>
+			<div class="section">
+				<div class="inner">inner</div>
+			</div>
+			<div class="footer">footer</div>
+		</div>
+	</body>
+</html>
